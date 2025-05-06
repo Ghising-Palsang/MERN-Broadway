@@ -49,11 +49,8 @@ for(let i in products){
    
  }
  for(let prod of products){
-    let prod = products[i]
    console.log(`Product Name: ${prod.name}`);
    console.log(`Product Price : Npr. ${prod.price}`);
-   
-   
  }
 
 
@@ -61,4 +58,3 @@ for(let i in products){
 
 
 
- 

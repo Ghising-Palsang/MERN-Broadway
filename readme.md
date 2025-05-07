@@ -101,7 +101,8 @@ Do you want to add github as a known host -- Yes
 
 ### Atarashi changes
     - git remote add origin main link ---> here origin is the name for url
-    - git push origin main:main   -----> left side main is for local and right for remote. It can be mixed if there are many branches other than main
+    - git push origin main:main   -----> left side main is for local and right for remote.
+                              It can be mixed if there are many branches other than main
 
 #### Conflict and resolution 
     - If there is changes in remote repo there will be conflict.

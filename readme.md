@@ -99,9 +99,36 @@ Do you want to add github as a known host -- Yes
     - git checkout <branchName>
 
 
-
+### Atarashi changes
+    - git remote add origin main link ---> here origin is the name for url
+    - git push origin main:main   -----> left side main is for local and right for remote. It can be mixed if there are many branches other than main
 
 #### Conflict and resolution 
+    - If there is changes in remote repo there will be conflict.
+    - We need to merge and reolve the conflict
+
+#### Pull Request
+    ### Online
+    - when main is protected, we do pull request
+    - resolve the conflict before pulling 
+    - Reviewers -> select senior developers
+    - Description
+    - Create Pull request
+
+    ### Locally
+    - git pull if changes in remote
+    - git merge if it's in local repo  ->>> git merge
+
+
+
+
+
+
+
+
+
+
+
 
 
 

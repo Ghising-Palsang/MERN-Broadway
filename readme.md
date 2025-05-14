@@ -118,18 +118,23 @@ Do you want to add github as a known host -- Yes
 
     ### Locally
     - git pull if changes in remote
-    - git merge if it's in local repo  ->>> git merge
+    - git merge if it's in local repo  ->>> git merge   -->> I think it's Pull merge 
 
 
+### If stuck during merging
+    - git rebase --continue
 
 
+- Agile ( Scrum , Canvan )
 
+- Hacktober fest
 
+- Gitflow workflow
+- jiro
+- velocity chart
 
-
-
-
-
+- standup - 10-15min
+- sprint planning
 
 
 

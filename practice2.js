@@ -1,38 +1,42 @@
-// Function
-// function sum (x,y) {
-//     let result = x + y;
-//     console.log(result);
+// function outer(){
+//     console.log('I am outer function');
+    
+//     function inner () {
+//         console.log('I am inner function');
+//     }
+
+//     return inner
 // }
 
-// sum(2, 2)
+// let result = outer()
+// result()
 
-// const multiply = (a, b) => {
-//    return a * b;
-// }   
 
-// console.log(multiply(2,3));
+// Learning concept from youtube
 
-// Callback Function
-function hello(callback){
-    console.log('Hello!');
-    callback()
-}
+// function alertFun (message){
+//     return () =>{
+//         console.log(message);
+        
+//     }
+// }
+// const alertMom = alertFun('hi mom');
+// alertMom()
 
-function Bye(){
-    console.log('Bye!');
-}
+// Task from youtube
 
-hello(Bye)
+// for (var i = 0; i < 3; i++){   // var is function scoped and global scoped. so it runs outer first i.e. hoisting. that's why it loops first and it stores the new value too. that's why when it gets to settimeout the i become 3 and run 3 three times.
+//     const log = () =>{
+//         console.log(i); // 
+        
+//     }
+//     setTimeout(log, 100)
+// }
 
-function add(a, b, callback){
-    let result = a + b;
-    callback(result)
-}
+// it logs three 3 as the output because the var is function scope 
 
-function displayConsole(result){
-    console.log(result);
-}
 
-add(2,2,displayConsole)
 
-  
+
+
+// practice
